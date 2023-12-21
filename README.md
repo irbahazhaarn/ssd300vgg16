@@ -1,1 +1,1 @@
-# ssd300vgg16
+SSD300 primarily means that the model was pretrained with 300×300 resolution images. However, in this project, we will resize images to 640×640 resolution. This adjustment is made because SSD300 object detection models may not perform well with small objects. As aerial multi-vehicle instances are relatively small objects in our context, we have opted for a higher resolution of 640×640 to train the SSD300 VGG16 model for improved performance in this project.
